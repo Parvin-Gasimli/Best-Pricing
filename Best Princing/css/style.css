@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #9da7a1;
+}
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+}
+
+.price {
+    text-align: center;
+}
+
+.divide {
+    width: 70px;
+    height: 4px;
+    background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+    display: block;
+    margin-left: 47%;
+    margin-top: 10px;
+}
+
+.monthly {
+    background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+    padding: 1px 51px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: #696969;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.yearly {
+    background-color: white;
+    padding: 2px 49px;
+    font-weight: 600;
+    border-radius: 30px;
+    color: #696969;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.textcenter {
+    text-align: center;
+    margin-top: 57px;
+    margin-right: 117px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#prices {
+    background-color: #9da7a1;
+    padding: 50px;
+    margin-top: 15px;
+}
+
+.item {
+    background-color: white;
+    padding: 15px;
+    height: 450px;
+    width: 250px;
+}
+
+.Basic {
+    background-color: white;
+    text-align: center;
+}
+
+.item.Basic h1 {
+    font-size: 15px;
+}
+
+.Basic p {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.content {
+    font-size: 17px;
+    text-align: center;
+    list-style: none;
+}
+
+.content h3 {
+    padding: 15px 0 14px 0;
+    border-top: 1px solid rgba(139, 144, 157, 0.18);
+    border-bottom: 1px solid rgba(139, 144, 157, 0.18);
+}
+
+.icon i {
+    font-size: 9px;
+    margin-bottom: 30px;
+    color: rgb(42, 165, 58);
+}
+
+.item button {
+    display: inline-block;
+    margin-left: 53px;
+    padding: 4px 11px;
+    bottom: 17px;
+    background-color: rgb(44, 145, 192);
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+.item button :hover {
+    background-color: blue;
+}
+
+.icon ul {
+    list-style: none;
+}
